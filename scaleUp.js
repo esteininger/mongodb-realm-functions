@@ -1,4 +1,4 @@
-exports = function() {
+exports = async function() {
   // get keys
   const pub = context.values.get("pub");
   const priv = context.values.get("priv");
