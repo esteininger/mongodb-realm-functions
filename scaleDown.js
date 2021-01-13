@@ -5,10 +5,11 @@ exports = function() {
   const group = context.values.get("groupID")
 
   // body
-  const body =   {
-    "providerSettings":
-    "providerName": "AWS",
-    "instanceSizeName": "M10"
+  const body = {
+    "providerSettings": {
+      "providerName": "AWS",
+      "instanceSizeName": "M10"
+    }
   }
   // cluster name
   const cluster = 'dev'
