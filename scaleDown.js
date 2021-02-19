@@ -17,7 +17,7 @@ exports = async function() {
   const arg = {
     scheme: 'https',
     host: 'cloud.mongodb.com',
-    path: `api/atlas/v1.0/groups/${group}/clusters/${cluster}?pretty=true`,
+    path: `api/atlas/v1.0/groups/${group}/clusters/${cluster}`,
     username: pub,
     password: priv,
     headers: {
